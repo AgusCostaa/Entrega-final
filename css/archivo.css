@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body {
+    background-color: #FAF5F1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    font-family: "prata";
+    font-size: 110px;
+    margin: 0%;
+}
+
+h2 {
+    font-family: "Kaisei Decol"
+}
+
+h3 {
+    font-family: "Keisei Decol";
+}
+
+header {
+    background: #ffffff;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav {
+    height: 60px;
+    padding-left: 25px;
+    margin-right: 35px;
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav .nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav .nav-uno,
+nav .nav-dos {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-family: Prata;
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: #000000;
+    font-family: Prata;
+}
+
+.logo img {
+    width: auto;
+    height: 50px;
+}
+
+
+
+a:link{
+    color: #333;
+}
+
+a:visited{
+    color: #333;
+}
+
+a:hover{
+    color: #815783;
+}
+
+a:active{
+    color: #333;
+}
+.home-center {
+    background-color: #F3DBE6;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #383838;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.home-center img {
+    width: 42%;
+    object-fit: cover;
+}
+
+.home-center button {
+    background-color: #FFF;
+    width: 360px;
+    height: 80px;
+    border-radius: 12px;
+    border-color: #ffffff;
+    font-size: 25px;
+    font-family: "Kaisei Decol";
+    color: #815783;
+}
+
+.hero {
+    text-align: center;
+    font-size: 40px;
+    color: #815783;
+    display: flex;
+    justify-content: center;
+    flex-wrap:nowrap;
+}
+
+.hero-section {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #815783;
+    border-radius: 25px;
+    width: 25%;
+    margin: 35px;
+    text-align: center;
+}
+
+.hero-section img {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 80%;
+}
+
+.hero-section h3 {
+    margin-top: 15px;
+}
+
+.products {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.products h1 {
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    gap: 35px;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: white;
+    height: 350px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.product-card p {
+    color: #333;
+    font-weight: bold;
+}
+
+.product-card button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #4cae4c;
+}
+
+.linea {
+    background-color: #FFB8BE;
+    width: 100%;
+    height: 40px;
+    color: #FFF;
+    font-family: "Kaisei Decol";
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.carousel-inner, .carousel-item {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.sobre-mi img {
+    width: 50%;
+    padding: 35px;
+    object-fit: cover;
+    border-radius: 60px;
+}
+
+.sobre-mi {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+    height: 750px;
+    background-color: #E8F88D;
+    border-radius: 12px;
+}
+
+.sobre-mi p {
+    width: 50%;
+    padding: 25px;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.sobremititulo {
+    margin: 50px;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px;
+}
+
+hr {
+    color: #815783;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
