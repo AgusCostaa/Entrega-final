@@ -212,7 +212,7 @@ a:active {
 }
 
 .product-card button:hover {
-    background-color:  #faf877;
+    background-color: #faf877;
 }
 
 .linea {
@@ -277,10 +277,10 @@ a:active {
 }
 
 .sobremititulo {
-padding: 15px;
+    padding: 15px;
     text-align: center;
     font-size: 40px;
-   
+
 }
 
 hr {
@@ -294,8 +294,86 @@ footer {
     text-align: center;
 }
 
+@media (max-width: 928px) {
+
+
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 25px
+    }
+
+    .home-center button {
+        width: 360px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .home-center {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #383838;
+        padding: 30px;
+        gap: 50px;
+    }
+
+    .home-center img {
+        width: 42%;
+        object-fit: cover;
+    }
+
+
+    .logo {
+        font-size: 20px;
+        flex-direction: row;
+    }
+
+    nav .nav-uno,
+    nav .nav-dos {
+        font-size: 15px;
+    }
+
+    .hero-section {
+        margin: 15px;
+
+    }
+
+    .linea p{
+        font-size: 18px;
+    }
+}
 
 @media (max-width:900px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 25px
+    }
+
+    .home-center button {
+        width: 360px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .home-center {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #383838;
+        padding: 30px;
+        gap: 50px;
+    }
+
+    .home-center img {
+        width: 42%;
+        object-fit: cover;
+    }
 
     header,
     nav.navbar {
@@ -312,14 +390,431 @@ footer {
     nav .nav-dos {
         font-size: 18px;
     }
+
+    .hero-section {
+        margin: 15px;
+
+    }
+
+    .linea p{
+        font-size: 18px;
+    }
 }
 
-@media (max-width:768px){
-    .sobre-mi{
+@media (max-width:882px) {
+    h1 {
+        font-size: 68px;
+    }
+
+    h2 {
+        font-size: 25px
+    }
+
+    .home-center button {
+        width: 360px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .home-center {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #383838;
+        padding: 30px;
+        gap: 50px;
+    }
+
+    .home-center img {
+        width: 42%;
+        object-fit: cover;
+    }
+
+    header,
+    nav.navbar {
+        height: 100%;
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 22px;
+        flex-direction: row;
+    }
+
+    nav .nav-uno,
+    nav .nav-dos {
+        font-size: 144px;
+    }
+
+    .hero-section {
+        margin: 15px;
+
+    }
+
+    .linea p{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:882px) {
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 22px
+    }
+
+    .home-center button {
+        width: 350px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .home-center {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #383838;
+        padding: 30px;
+        gap: 50px;
+    }
+
+    .home-center img {
+        width: 42%;
+        object-fit: cover;
+    }
+
+    header,
+    nav.navbar {
+        height: 100%;
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 22px;
+        flex-direction: row;
+    }
+
+    nav .nav-uno,
+    nav .nav-dos {
+        font-size: 10px;
+    }
+
+    .hero-section {
+        margin: 15px;
+
+    }
+
+    .linea p{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:820px) {
+
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 15px
+    }
+
+    .home-center button {
+        width: 330px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .home-center {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #383838;
+        padding: 30px;
+        gap: 50px;
+    }
+
+    .home-center img {
+        width: 42%;
+        object-fit: cover;
+    }
+
+    .sobre-mi {
         flex-direction: column;
         height: 100%;
     }
-    .sobre-mi img, .sobre-mi div {
+
+    .sobre-mi img,
+    .sobre-mi div {
         width: 100%;
+    }
+
+    .hero-section {
+        margin: 15px;
+
+    }
+
+    .linea p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:714px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 15px
+    }
+
+    .home-center button {
+        width: 270px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .home-center {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #383838;
+        padding: 30px;
+        gap: 50px;
+    }
+
+    .home-center img {
+        width: 42%;
+        object-fit: cover;
+    }
+
+    .hero-section {
+        margin: 15px;
+
+    }
+
+    .linea p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:608px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 15px
+    }
+
+    .home-center button {
+        width: 250px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .home-center {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #383838;
+        padding: 30px;
+        gap: 50px;
+    }
+
+    .home-center img {
+        width: 42%;
+        object-fit: cover;
+    }
+
+    .hero-section {
+        margin: 15px;
+
+    }
+
+    .linea p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:572px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 15px
+    }
+
+    .home-center button {
+        width: 200px;
+        height: 70px;
+        font-size: 15px;
+    }
+
+    .home-center {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #383838;
+        padding: 30px;
+        gap: 50px;
+    }
+
+    .home-center img {
+        width: 42%;
+        object-fit: cover;
+    }
+
+    footer img {
+        width: 250px;
+        height: auto;
+    }
+
+    nav .nav-uno,
+    nav .nav-dos {
+        font-size: 10px;
+        gap: 25px;
+    }
+
+    nav .nav-items {
+        gap: 20px;
+    }
+
+    .hero-section {
+        margin: 15px;
+
+    }
+
+    .linea p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:476px) {
+
+    header,
+    nav.navbar {
+        height: 100%;
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 22px;
+        flex-direction: row;
+    }
+
+    nav .nav-uno,
+    nav .nav-dos {
+        font-size: 10px;
+        gap: 25px;
+    }
+
+    nav .nav-items {
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 12px
+    }
+
+    .home-center button {
+        width: 150px;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .home-center {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #383838;
+        padding: 30px;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .home-center img {
+        width: 42%;
+        object-fit: cover;
+    }
+
+    .hero-section {
+        margin: 15px;
+
+    }
+
+    .linea p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:476px) {
+
+    header,
+    nav.navbar {
+        height: 100%;
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 22px;
+        flex-direction: row;
+    }
+
+    nav .nav-uno,
+    nav .nav-dos {
+        font-size: 10px;
+        gap: 25px;
+    }
+
+    nav .nav-items {
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 10px
+    }
+
+    .home-center button {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .home-center {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #383838;
+        padding: 30px;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .home-center img {
+        width: 42%;
+        object-fit: cover;
+    }
+
+    .hero-section {
+        margin: 15px;
+
+    }
+
+    .linea p{
+        font-size: 18px;
     }
 }
