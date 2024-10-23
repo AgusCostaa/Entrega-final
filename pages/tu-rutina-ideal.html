@@ -1,26 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tu rutina ideal</title>
+    <link rel="stylesheet" href="rutina.css">
 </head>
+
 <body>
+
     <header id="top">
-        <nav>
-            <ul>
-                <li>
-                    <a href="pages/Tienda.html">Tienda</a>
-                </li>
-                <li>
+
+        <nav class="navbar">
+            <div class="nav-items">
+                <div class="nav-uno">
+                    <a href="pages/tienda.html">Tienda</a>
                     <a href="pages/Descubri tu biotipo.html">Descubri tu biotipo</a>
-                </li>
-                <li>
-                    <a href="pages/Tu rutina ideal.html">Tu rutina ideal</a>
-                </li>
-                <li>
-                    <a href="pages/Maquillate conmigo.html">Maquillate conmigo</a>
-                </li>
-            </ul>
+                </div>
+
+
+                <div class="logo">
+                    <a href="index.html">Maquillatina</a>
+                    <img src="images-pages/florcita.png" alt="">
+                </div>
+
+                <div class="nav-dos">
+                    <a href="pages/tu-rutina-ideal.html">Tu rutina ideal</a>
+                    <a href="pages/maquillate-conmigo.html">Maquillate conmigo</a>
+                </div>
+            </div>
         </nav>
     </header>
+
+
+    <main>
+        <section class="main-header">
+            <h1>Tu rutina ideal</h1>
+        </section>
+        <section class="home-center">
+            <p>¿Ya sabes cual es tu biotipo?</p>
+            <button>¡Descubrilo aca!</button>
+        </section>
+
+        <section class="routine">
+            <h2>Rutina según tu biotipo</h2>
+            <h3 class="biotipo">NORMAL</h3>
+
+            <div class="routine-steps">
+                <div class="step">
+                    <img src="cleanser.png" alt="Gel limpiador">
+                    <h4>Limpieza</h4>
+                    <p>Limpia impurezas, elimina el exceso de sebo y el maquillaje sin secar la piel. Deja la piel suave
+                        y luminosa, sin residuos.</p>
+                </div>
+
+                <div class="step">
+                    <img src="serum-vitc.png" alt="Vitamina C">
+                    <h4>Corrección</h4>
+                    <p><strong>Vitamina C:</strong> Antioxidante, participa en la síntesis de colágeno, regenerador,
+                        cicatrizante, antinflamatorio, de acción fotoprotectora y despigmentante.</p>
+                    <p><strong>Ácido Hialurónico:</strong> Retiene la máxima cantidad de agua que la epidermis pueda
+                        absorber, mejorando la resistencia al envejecimiento.</p>
+                </div>
+
+                <div class="step">
+                    <img src="sunscreen.png" alt="Protector solar">
+                    <h4>Protección</h4>
+                    <p>La fotoprotección es indispensable contra el envejecimiento prematuro producido por la radiación
+                        solar.</p>
+                </div>
+            </div>
+        </section>
+
+        <button class="buy-button">Comprar</button>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="x-icon.png" alt="X"></a>
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="tiktok-icon.png" alt="TikTok"></a>
+            <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

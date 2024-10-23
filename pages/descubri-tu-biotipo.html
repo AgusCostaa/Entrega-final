@@ -1,45 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="biotipo.css">
 </head>
 <body>
-    <header id="top">
-        <nav>
-            <ul>
-                <li>
-                    <a href="pages/Tienda.html">Tienda</a>
-                </li>
-                <li>
-                    <a href="pages/Descubri tu biotipo.html">Descubri tu biotipo</a>
-                </li>
-                <li>
-                    <a href="pages/Tu rutina ideal.html">Tu rutina ideal</a>
-                </li>
-                <li>
-                    <a href="pages/Maquillate conmigo.html">Maquillate conmigo</a>
-                </li>
-            </ul>
-        </nav>
+    <nav class="navbar">
+        <div class="nav-items">
+            <div class="nav-uno">
+                <a href="pages/tienda.html">Tienda</a>
+                <a href="pages/descubri-tu-biotipo">Descubri tu biotipo</a>
+            </div>
+
+
+            <div class="logo">
+                <a href="../index.html">Maquillatina</a>
+                <img src="images-pages/florcita.png" alt="">
+            </div>
+
+            <div class="nav-dos">
+                <a href="pages/tu-rutina-ideal">Tu rutina ideal</a>
+                <a href="pages/maquillate-conmigo">Maquillate conmigo</a>
+            </div>
+
+    </nav>
+
+    <header class="main-header">
+        <h1>Descubri tu biotipo</h1>
     </header>
-<p>Aqui aprenderas a descucrir cual es tu biotipo</p>
-<h2>Biotipo</h2>
-<ul>
-    <li>Graso</li>
-    <ul>
-        <li>Seborreico</li>
-        <li>Deshidratado</li>
-        <li>Asfictico</li>
-    </ul>
-    <li>Seco</li>
-    <ul>
-        <li>Alipido</li>
-        <li>Deshidratado</li>
-    </ul>
-    <li>Mixto</li>
-    <li>Normal o Eudermico</li>
-</ul>
+    <main>
+        <section class="home-center">
+            <article>
+                <h1>¿Cual es mi <br> biotipo?</h1>
+                <h2>Conocelo para elegir los productos <br> correctos para tu piel</h2>
+                <img src="" alt="">
+            </article>
+
+
+            <img src="images-pages/mujer-biotipo.png" alt="">
+        </section>
+
+        <section class="definicion-card">
+            <article id="definicion" class="definicion">
+                <p>“El biotipo es el patrón biológico de cada piel basado en el equilibrio de sus secreciones que se
+                    unen y forman una emulsión epicutánea”</p>
+            </article>
+        </section>
+
+        <section>
+            <article id="que-significa" class="que-significa">
+                <h2>¿Qué significa esto?</h2>
+                <h3>La emulsión epicutánea está formada por ...</h3>
+                <p>Una fase acuosa que proveniene del agua del sudor y perspiración insensible y una fase oleosa formada
+                    por las grasas de las glándulas sebáceas. Esta emulsión impregna las células superficiales de la
+                    piel.
+                    Esta emulsión puede estar equilibrada (Piel normal), contener mas grasa que agua (Piel grasa), tener
+                    menos cantidad de agua (Piel seca) o combinar lo anterior en diferentes partes del cuerpo o del
+                    rostro (Piel mixta).</p>
+            </article>
+        </section>
+
+        <section>
+            <article class="emulsion-epi">
+                <h3>La emulsión epicutánea determinara el biotipo de nuestra piel. El biotipo no cambia, es el mismo
+                    toda la vida.</h3>
+            </article>
+        </section>
+
+        <section>
+            <h1>Descubri tu biotipo</h1>
+            <div class="tipo-de-piel">
+                <div class="piel-grid">
+                    <div class="piel-card">
+                        <h3>Piel Normal</h3>
+                        <p>Tu piel esta en equilibro. No se siente ni grasosa ni seca. No se visibilizan con facilidad
+                            los poros, piel semi mate, suave, sin lesiones como granitos o puntos negrosTu piel esta en
+                            equilibro. No se siente ni grasosa ni seca. No se visibilizan con facilidad los poros, piel
+                            semi mate, suave, sin lesiones como granitos o puntos negros.</p>
+                        <button> Ver productos</button>
+                    </div>
+                    <div class="piel-card">
+                        <h3>Piel Grasa</h3>
+                        <p>Graso deshidratado: Poros visibles, oleosidad, se irrita facil, aspera al tacto, descamación
+                            y arruguillas. Aspecto opaco.
+                            Graso asfítico: Poros dilatados, presencia de puntos negros, granitos, piel gruesa, opaca,
+                            piel irregular</p>
+                        <button> Ver productos</button>
+                    </div>
+                    <div class="piel-card">
+                        <h3>Piel seca</h3>
+                        <p>Seca deshidratada: Tacto aspero, descamación, arruguillas, irregular, aspecto mate. Poros
+                            visibles, sensibilidad, intolerante al clima
+                            Seca Alipida: Poros no visibles, aspereza, descamaciòn</p>
+                        <button> Ver productos</button>
+                    </div>
+                    <div class="piel-card">
+                        <h3>Piel mixta</h3>
+                        <p>Combinan las variantes mencionadas en distintas zonas del rostro</p>
+                        <button> Ver productos</button>
+                    </div>
+                </div>
+        </section>
+        <footer>
+            <hr>
+            <br>
+            <article id="Redes" class="redes-sociales">
+                <img src="images-pages/redes.png" alt="redes sociales">
+            </article>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 </body>
 </html>
