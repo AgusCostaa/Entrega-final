@@ -1,0 +1,136 @@
+
+.rutina-html {
+    background-color: #FAF5F1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+
+.main-header-rutina {
+    text-align: center;
+    margin: 0px 0;
+    color: #383838;
+    background-color: #fa929c;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "prata";
+    font-size: 30px;
+    
+
+}
+
+
+
+.home-center-rutina {
+    background-image:url(../pages/images-pages/fondoblur.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #383838;
+    height:400px;
+    padding: 30px;
+
+p {
+    font-family: "prata";
+    font-size: 50px;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #E8F88D;
+    color: #383838;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: prata;
+    font-size: 30px;
+    height: 90px;
+    width: 300px;
+}
+
+}
+
+
+
+.rutina {
+    margin: 40px auto;
+    max-width: 1200px;
+h2 {
+    font-size: 50px;
+    color: #815783;
+    text-align: center;
+}
+
+}
+
+.biotipo {
+    font-size: 35px;
+    color: #fa929c;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.rutina-pasos {
+    display: flex;
+    justify-content: space-between; 
+    align-items: stretch; 
+    gap: 20px; }
+
+.paso {
+    font-family: "kaisei decol";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height:600px; 
+
+img {
+    max-width: 100px; 
+    height: 200px; 
+    object-fit: cover; 
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.4em;
+    color:#383838;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    flex-grow: 1; 
+}
+
+
+}
+
+
+.boton-rutina {
+    display: block;           
+    margin: 20px auto;        
+    padding: 15px 30px;
+    background-color:#E8F88D;
+    color: #333;
+    border: none;
+    font-family: "kaisei decol";
+    border-radius: 5px;
+    font-size: 28px;
+    cursor: pointer;
+}

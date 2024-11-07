@@ -3,6 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Prata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 body {
   background-color: #FAF5F1;
   display: flex;
@@ -40,7 +46,8 @@ header {
   top: 0;
   z-index: 2;
 }
-header .navbar {
+
+.navbar {
   height: 60px;
   padding-left: 25px;
   margin-right: 35px;
@@ -54,17 +61,20 @@ header .navbar {
   top: 0;
   z-index: 2;
 }
-header nav a {
+
+nav a {
   text-decoration: none;
 }
-header nav .nav-items {
+
+nav .nav-items {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 50px;
 }
-header nav .nav-uno,
-header nav .nav-dos {
+
+nav .nav-uno,
+nav .nav-dos {
   display: flex;
   gap: 50px;
   justify-content: center;
@@ -75,7 +85,8 @@ header nav .nav-dos {
   font-family: Prata;
   font-weight: 700;
 }
-header .logo {
+
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,20 +94,24 @@ header .logo {
   color: #000000;
   font-family: Prata;
 }
-header .logo img {
+.logo img {
   width: auto;
   height: 50px;
 }
-header a:link {
+
+a:link {
   color: #333;
 }
-header a:visited {
+
+a:visited {
   color: #333;
 }
-header a:hover {
+
+a:hover {
   color: #815783;
 }
-header a:active {
+
+a:active {
   color: #333;
 }
 
@@ -216,17 +231,18 @@ h3 {
   border-radius: 5px;
   cursor: pointer;
 }
-.product-card-index button button:hover {
+
+button:hover {
   background-color: #faf877;
 }
 
 .linea {
   background-color: #FFB8BE;
   width: 100%;
-  padding: 20px;
+  padding: 24px;
   color: #FFF;
   font-family: "Kaisei Decol";
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   display: flex;
   justify-content: center;
@@ -1189,10 +1205,7 @@ footer {
   align-items: center;
   text-align: center;
   font-family: prata;
-}
-.main-header-productos h1 {
-  margin: 0;
-  color: #333;
+  font-size: 30px;
 }
 
 .main-container-productos {
@@ -1277,6 +1290,409 @@ footer {
 }
 .product-card button button:hover {
   background-color: #4cae4c;
+}
+
+.rutina-html {
+  background-color: #FAF5F1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.main-header-rutina {
+  text-align: center;
+  margin: 0px 0;
+  color: #383838;
+  background-color: #fa929c;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "prata";
+  font-size: 30px;
+}
+
+.home-center-rutina {
+  background-image: url(../pages/images-pages/fondoblur.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #383838;
+  height: 400px;
+  padding: 30px;
+}
+.home-center-rutina p {
+  font-family: "prata";
+  font-size: 50px;
+}
+.home-center-rutina button {
+  padding: 10px 20px;
+  background-color: #E8F88D;
+  color: #383838;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: prata;
+  font-size: 30px;
+  height: 90px;
+  width: 300px;
+}
+
+.rutina {
+  margin: 40px auto;
+  max-width: 1200px;
+}
+.rutina h2 {
+  font-size: 50px;
+  color: #815783;
+  text-align: center;
+}
+
+.biotipo {
+  font-size: 35px;
+  color: #fa929c;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.rutina-pasos {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.paso {
+  font-family: "kaisei decol";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 600px;
+}
+.paso img {
+  max-width: 100px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.paso h4 {
+  font-size: 1.4em;
+  color: #383838;
+  margin-bottom: 15px;
+}
+.paso p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.boton-rutina {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 30px;
+  background-color: #E8F88D;
+  color: #333;
+  border: none;
+  font-family: "kaisei decol";
+  border-radius: 5px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.descubri-html {
+  background-color: #FAF5F1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.main-header-descubri {
+  text-align: center;
+  margin: 0px 0;
+  color: #383838;
+  background-color: #E8F88D;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: prata;
+  font-size: 30px;
+}
+
+.home-center-descubri {
+  background-color: #EDEDE7;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 250px;
+  color: #383838;
+  padding: 120px;
+  height: 400px;
+}
+.home-center-descubri img {
+  width: 45%;
+  object-fit: cover;
+}
+.home-center-descubri h1 {
+  font-family: "prata";
+  font-size: 80px;
+  margin: 0%;
+  color: #815783;
+}
+.home-center-descubri h2 {
+  font-family: "Kaisei Decol";
+  font-size: 27px;
+}
+.home-center-descubri h3 {
+  font-family: "Keisei Decol";
+}
+
+.definicion {
+  background-color: #FFE4C6;
+  font-family: "prata";
+  font-size: 20px;
+  width: 80%;
+  height: 150px;
+  border-radius: 12px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 30px;
+  padding: 15px;
+}
+
+.definicion-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.que-significa {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 8px;
+  width: 80%;
+  text-align: center;
+}
+.que-significa h2 {
+  font-family: "prata";
+  font-size: 35px;
+}
+.que-significa h3 {
+  font-family: "kaisei decol";
+  font-size: 25px;
+  color: #815783;
+}
+.que-significa p {
+  font-family: "prata";
+  text-align: justify;
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+  margin: 20px auto;
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 30px;
+}
+.que-significa h4 {
+  font-family: "prata";
+  font-size: 18px;
+  color: #815783;
+}
+
+.biotipo-section {
+  padding: 20px;
+  text-align: center;
+}
+.biotipo-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.biotipo-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  text-align: justify;
+}
+
+.biotipo-card {
+  background-color: #ffffff;
+  border: 1px solid #E0E0E0;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+}
+.biotipo-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.biotipo-card p {
+  font-size: 1em;
+  color: #333;
+  font-family: "kaisei decol";
+}
+.biotipo-card h3 {
+  text-align: center;
+  font-family: "kaisei decol";
+}
+.biotipo-card button {
+  background-color: #815783;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 20px auto 0;
+}
+.biotipo-card button:hover {
+  background-color: #E8F88D;
+}
+
+.maquillate-html {
+  background-color: #FAF5F1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.main-header-maquillate {
+  text-align: center;
+  margin: 0px 0;
+  color: #383838;
+  background-color: #FFE4C6;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: prata;
+  font-size: 30px;
+}
+
+.home-center-maquillate img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carrusel {
+  margin: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.carrusel .slides {
+  display: flex;
+  animation: scrollInfinite 15s linear infinite;
+  gap: 30px;
+}
+.carrusel .slides .slide {
+  width: 400px;
+  height: 600px;
+  flex-shrink: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.presentacion {
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 8px;
+  width: 80%;
+  text-align: center;
+}
+.presentacion h2 {
+  font-family: "prata";
+  font-size: 30px;
+}
+.presentacion h3 {
+  font-family: "kaisei decol";
+  font-size: 20px;
+  color: #333;
+}
+
+.text {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 8px;
+  width: 80%;
+  text-align: center;
+}
+.text li {
+  font-family: "prata";
+  text-align: justify;
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+  margin: 20px auto;
+  font-size: 20px;
+  background-color: #ffffff;
+}
+.text h4 {
+  font-family: "prata";
+  font-size: 30px;
+  color: #815783;
+  text-align: left;
+}
+.text p {
+  font-family: "prata";
+  text-align: justify;
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+  margin: 20px auto;
+  font-size: 20px;
+  background-color: #ffffff;
+}
+
+@keyframes scrollInfinite {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1400px);
+    transform: translateX(-1400px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .slides {
+    animation: none;
+  }
 }
 
 /*# sourceMappingURL=archivo.css.map */
