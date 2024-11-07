@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+ 
+$primary-color:#ffffff;
+$secondary-color:#383838;
+$terciary-color:#815783;
+$background-color:#FAF5F1;
+
+body {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    font-family: "prata";
+    font-size: 110px;
+    margin: 0%;
+}
+
+h2 {
+    font-family: "Kaisei Decol"
+}
+
+h3 {
+    font-family: "Keisei Decol";
+}

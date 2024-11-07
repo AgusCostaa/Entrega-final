@@ -25,7 +25,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 2;
-    
+
 }
 
 nav a {
@@ -67,19 +67,19 @@ nav .nav-dos {
 }
 
 
-a:link{
+a:link {
     color: #333;
 }
 
-a:visited{
+a:visited {
     color: #333;
 }
 
-a:hover{
+a:hover {
     color: #815783;
 }
 
-a:active{
+a:active {
     color: #333;
 }
 
@@ -94,7 +94,7 @@ a:active{
     align-items: center;
     text-align: center;
     font-family: prata;
-    
+
 
 
 }
@@ -102,7 +102,7 @@ a:active{
 .main-header h1 {
     margin: 0;
     color: #333;
-    
+
 }
 
 .home-center {
@@ -132,7 +132,7 @@ a:active{
 
 h2 {
     font-family: "Kaisei Decol";
-    font-size:27px;
+    font-size: 27px;
 }
 
 h3 {
@@ -151,48 +151,118 @@ h3 {
     align-items: center;
     margin: 30px;
     padding: 15px;
-    
+
 }
 
-.definicion-card{
+.definicion-card {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
     justify-content: center;
     flex-direction: row;
 }
 
-.que-significa{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.que-significa {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 8px;
     width: 80%;
-    margin: 30px;
-    padding: 15px;
-}
-.que-significa h2{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    font-family: "keisei Decol";
-    font-size: 40px;
-    color: #383838;
+    text-align: center;
+
 }
 
-.que-significa h3{
+.que-significa h2 {
     font-family: "prata";
+    font-size: 35px;
+}
+
+.que-significa h3 {
+    font-family: "kaisei decol";
+    font-size: 25px;
     color: #815783;
 }
 
-.que-significa p{
+.que-significa p {
     font-family: "prata";
-    color: #383838;
+    text-align: justify;
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    margin: 20px auto;
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 30px;
 }
 
+.que-significa h4 {
+    font-family: "prata";
+    font-size: 18px;
+    color: #815783;
+}
 
+.biotipo-section {
+    padding: 20px;
+    text-align: center;
+}
 
+.biotipo-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
 
+.biotipo-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: justify;
+}
 
+.biotipo-card {
+    background-color: #ffffff;
+    border: 1px solid #E0E0E0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+}
+
+.biotipo-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.biotipo-card p {
+    font-size: 1em;
+    color: #333;
+    font-family: "kaisei decol";
+}
+.biotipo-card h3{
+    text-align: center;
+    font-family: "kaisei decol";
+}
+
+.biotipo-card button {
+    background-color: #815783;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 20px auto 0;
+}
+
+.biotipo-card button:hover {
+    background-color: #E8F88D;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
