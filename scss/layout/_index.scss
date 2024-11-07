@@ -125,15 +125,16 @@ h3 {
         color: black;
         border: none;
         border-radius: 5px;
-        cursor: pointer;
-
-        button:hover {
-            background-color: #faf877;
-        }
+        cursor: pointer; 
     }
 
 }
 
+button:hover {
+            background-color: #faf877;
+        }
+
+        
 .linea{
     background-color: #FFB8BE;
     width: 100%;
