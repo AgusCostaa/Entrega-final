@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
-.products-html body {
+.products-html{
     background-color: #FAF5F1;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
 
 
 
-.main-header {
+.main-header-productos {
     text-align: center;
     margin: 0px 0;
     color: #383838;
@@ -27,22 +27,43 @@
     text-align: center;
     font-family: prata;
 
-    h1 {
-        margin: 0;
-        color: #333;
+ h1 {
+    margin: 0;
+    color: #333;
 
-    }
-
+}
 
 }
 
 
-.main-container {
+.main-container-productos {
     display: flex;
     margin: 20px;
+    .filters {
+        width: 20%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        color: #383838;
+    
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        padding: 15px;
+        color: #815783;
+        font-weight: 700;
+        font-size: 25px;
+    }
 
-
+    h2 {
+        margin-top: 0;
+    }
 }
+
 
 
 
@@ -58,48 +79,24 @@
     text-align: center;
 }
 
-.filters {
-    width: 20%;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    color: #383838;
 
-    ul {
-        list-style-type: none;
-    }
-
-    li {
-        padding: 15px;
-        color: #815783;
-        font-weight: 700;
-        font-size: 25px;
-    }
-
-    &h2 {
-        margin-top: 0;
-    }
-
-}
 
 
 
 .products {
     width: 80%;
     margin-left: 20px;
-    h1 {
-        margin-bottom: 20px;
-    }
-&-grid {
+ h1 {
+    margin-bottom: 20px;
+}
+}
+
+
+.product-grid {
     display: grid;
     grid-template-columns: repeat(4, 225px);
     gap: 15px;
 }
-}
-
-
-
-
 
 .product-card {
     background-color: white;
@@ -114,27 +111,32 @@ img {
     height: 50%;
     border-radius: 5px;
 }
-h3 {
-    margin: 10px 0;
-    font-size: 15px;
+    h3 {
+        margin: 10px 0;
+        font-size: 15px;
+    
+    }
+    p {
+        color: #333;
+        font-weight: bold;
+    }
+    button {
+        padding: 10px 20px;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        button:hover {
+            background-color: #4cae4c;
+        }
+    
+    }
 
-}
-p {
-    color: #333;
-    font-weight: bold;
-}
-button {
-    padding: 10px 20px;
-    background-color: #5cb85c;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-button:hover {
-    background-color: #4cae4c;
-}    
+   
 }
 
-}
+
+
 
 
